@@ -1,0 +1,24 @@
+#box{
+    background-color: bisque;
+    height:400px;
+    width:700px;
+    visibility: hidden;
+}
+.icons{
+    background-color: red;
+    padding: 5px;
+    height:30px;
+    width:30px;
+    position: relative;
+    left:655px;
+    top:-57px;
+}
+.icon{
+    text-align: center;
+    position: relative;
+    top:-4px;
+}
+
+#box.show{
+    visibility: visible;
+}
